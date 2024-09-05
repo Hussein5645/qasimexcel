@@ -40,6 +40,3 @@ This repository contains a Doctor/Patient Management System, a WPF application d
 - **AddPatientWindow.xaml**: The window for adding new patients, with dynamic field generation based on the configuration file.
 - **AnalysisWindow.xaml**: Visual analysis interface for analyzing patient data, providing statistics and visual charts.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
