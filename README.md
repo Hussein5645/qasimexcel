@@ -21,7 +21,7 @@ This repository contains a Doctor/Patient Management System, a WPF application d
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone <[repository-url](https://github.com/Hussein5645/qasimexcel.git)>
     ```
 
 2. **Set up the environment**:
