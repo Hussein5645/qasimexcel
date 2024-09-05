@@ -1,0 +1,25 @@
+﻿<Window x:Class="PatientManagementApp.FloatingPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dynamic Fields" Height="600" Width="400"
+        MinHeight="200" MinWidth="200"
+        WindowStartupLocation="Manual" Background="#F9FAFC" 
+        WindowStyle="SingleBorderWindow" 
+        BorderBrush="#BDBDBD" BorderThickness="1">
+
+    <Window.Resources>
+        <!-- Import Resource Dictionary -->
+        <ResourceDictionary Source="pack://application:,,,/Styles.xaml"/>
+    </Window.Resources>
+
+    <Border Background="#F9FAFC" CornerRadius="10" BorderBrush="#BDBDBD" BorderThickness="1">
+        <ScrollViewer Style="{StaticResource DynamicFieldsPanelStyle}">
+            <StackPanel Orientation="Vertical" Style="{StaticResource DynamicFieldsStackPanelStyle}">
+                <TextBlock Text="تفاصيل المريض" Style="{StaticResource DynamicFieldsTextBlockStyle}" Width="162"/>
+                <StackPanel x:Name="dynamicFieldsPanelFloating" Orientation="Vertical">
+                    <!-- Dynamic Fields Will Be Added Here Dynamically -->
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</Window>

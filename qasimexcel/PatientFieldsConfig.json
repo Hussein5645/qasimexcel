@@ -1,0 +1,272 @@
+{
+  "Fields": [
+    {
+      "Name": "Name",
+      "Type": "Text"
+    },
+    {
+      "Name": "Phone No",
+      "Type": "Text"
+    },
+    {
+      "Name": "Age",
+      "Type": "Integer"
+    },
+    {
+      "Name": "Sex",
+      "Type": "Choice",
+      "Options": [ "Male", "Female" ]
+    },
+    {
+      "Name": "Occupation",
+      "Type": "Text"
+    },
+    {
+      "Name": "Presenting symptom",
+      "Type": "MultipleChoice",
+      "Options": [ "Asymptomatic", "Pain", "Sensation of F.B", "Swelling", "Joint locking", "Neurological", "Limping", "Fever", "Other symptom" ]
+    },
+    {
+      "Name": "Location",
+      "Type": "Text"
+    },
+    {
+      "Name": "Duration",
+      "Type": "Text"
+    },
+    {
+      "Name": "Mechanism of the injury",
+      "Type": "MultipleChoice",
+      "Options": [ "Accidental trauma", "Assault", "Child or elder abuse", "Self-inflicted", "Other mechanism" ]
+    },
+    {
+      "Name": "Suspected material involved in the injury",
+      "Type": "MultipleChoice",
+      "Options": [ "Glass", "Inert", "Organic" ]
+    },
+    {
+      "Name": "Attempt to removal",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Medical history",
+      "Type": "Text"
+    },
+    {
+      "Name": "Surgical history",
+      "Type": "Text"
+    },
+    {
+      "Name": "Previous injury or surgery in that site",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Social history - Smoking",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Drug history - Steroid abuser",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Vaccination hx - The last anti-tetanus vaccine",
+      "Type": "Choice",
+      "Options": [ "Less than 10y", "More than 10y", "Not remember", "Not received" ]
+    },
+    {
+      "Name": "Examination - Signs of inflammation",
+      "Type": "MultipleChoice",
+      "Options": [ "Redness", "Hotness", "Tenderness", "Swelling", "Loss of function", "No signs" ]
+    },
+    {
+      "Name": "Examination - Signs of infection",
+      "Type": "MultipleChoice",
+      "Options": [ "Draining pus", "Abscess", "No signs" ]
+    },
+    {
+      "Name": "Neurovascular examination - Intact distal pulse",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Neurovascular examination - Intact neurological exam",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Investigation - X-ray finding",
+      "Type": "Choice",
+      "Options": [ "Radiopaque", "Radiolucent" ]
+    },
+    {
+      "Name": "Investigation - Ultrasound - F.B",
+      "Type": "Choice",
+      "Options": [ "Positive", "Negative" ]
+    },
+    {
+      "Name": "Investigation - Ultrasound - Infection",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Investigation - Ultrasound - Size",
+      "Type": "Text"
+    },
+    {
+      "Name": "Investigation - Ultrasound - Depth",
+      "Type": "Text"
+    },
+    {
+      "Name": "Management - ATS prophylaxis",
+      "Type": "Choice",
+      "Options": [ "No need", "Vaccine", "IG+vaccine" ]
+    },
+    {
+      "Name": "Management - ABX prophylaxis",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Management - XR with marker",
+      "Type": "Choice",
+      "Options": [ "Done", "Not done" ]
+    },
+    {
+      "Name": "Management - Type of anesthesia",
+      "Type": "Choice",
+      "Options": [ "GA", "Spinal", "Local" ]
+    },
+    {
+      "Name": "Management - Torniquet",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Management - Operative time in minutes",
+      "Type": "Text"
+    },
+    {
+      "Name": "Management - F.B type",
+      "Type": "Text"
+    },
+    {
+      "Name": "Management - Confirmation X-ray",
+      "Type": "Choice",
+      "Options": [ "-ve", "Residual F.B" ]
+    },
+    {
+      "Name": "Management - Intraoperative complication",
+      "Type": "MultipleChoice",
+      "Options": [ "Fibrozed", "Failure of F.B removal", "Iatrogenic injury", "Infection", "Broken F.B", "Residual F.B", "Bleeding" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Asymptomatic",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Pain",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Sensation of F.B",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Swelling",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Joint locking",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Neurological",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Limping",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Fever",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Other symptom",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (2 weeks) - Signs of infection",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Asymptomatic",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Pain",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Sensation of F.B",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Swelling",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Joint locking",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Neurological",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Limping",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Fever",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Other symptom",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Signs of infection",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    },
+    {
+      "Name": "Follow-up (1 month) - Cosmetic problem",
+      "Type": "Choice",
+      "Options": [ "Yes", "No" ]
+    }
+  ]
+}
